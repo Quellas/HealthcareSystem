@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74014b67-cbf0-4ec3-8101-0319a21ca27b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\study\soft\Maven\repository\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../soft/apache-maven-3.5.3-bin/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\study\soft\apache-maven-3.5.3-bin\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1xRiIC38BgalSTjwNk0EcU7LVHL" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\code\javase2\health_parent01\health_dao\src\main\resources\com\itheima\dao" />
+      <recent name="E:\study\code\javase2\health_parent01\health_web\src\main\java\com\itheima\controller" />
+      <recent name="E:\study\code\javase2\health_parent01\health_service\src\main\java\com\itheima\service" />
+      <recent name="E:\study\code\javase2\health_parent01\health_dao\src\main\java\com\itheima\dao" />
+      <recent name="E:\study\code\javase2\health_parent01\health_pojo\src\main\java" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="health" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/day48_healthweb" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74014b67-cbf0-4ec3-8101-0319a21ca27b" name="Default Changelist" comment="" />
+      <created>1630324219983</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630324219983</updated>
+      <workItem from="1630324223042" duration="1942000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="1" key="#Project_Structure" timestamp="1630325278365">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="360" y="1" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1630325278365" />
+    <state x="362" y="1" key="#Unnamed" timestamp="1630324496165">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="362" y="1" key="#Unnamed/0.0.1440.860@0.0.1440.860" timestamp="1630324496165" />
+    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630324478986">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1630324478986" />
+    <state x="362" y="1" key="#health" timestamp="1630325932623">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="362" y="1" key="#health/0.0.1440.860@0.0.1440.860" timestamp="1630325932623" />
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1630326145515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
+    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1630326145515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
+    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1630326145515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
+    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1630326145515">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
+    <state width="1398" height="338" key="GridCell.Tab.1.bottom" timestamp="1630324660929">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="338" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
+    <state width="1398" height="338" key="GridCell.Tab.1.center" timestamp="1630324660929">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="338" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
+    <state width="1398" height="338" key="GridCell.Tab.1.left" timestamp="1630324660929">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="338" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
+    <state width="1398" height="338" key="GridCell.Tab.1.right" timestamp="1630324660929">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1398" height="338" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
+    <state x="222" y="11" key="SettingsEditor" timestamp="1630325912648">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="222" y="11" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1630325912648" />
+    <state x="174" y="152" width="1266" height="666" key="new project wizard" timestamp="1630325139667">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="152" width="1266" height="666" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1630325139667" />
+    <state x="381" y="199" width="672" height="677" key="run.anything.popup" timestamp="1630326137449">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="381" y="199" width="672" height="677" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1630326137449" />
+    <state x="482" y="124" key="spring file set editor" timestamp="1630325551457">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="482" y="124" key="spring file set editor/0.0.1440.860@0.0.1440.860" timestamp="1630325551457" />
+  </component>
+</project>
