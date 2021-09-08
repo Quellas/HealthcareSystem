@@ -1,7 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74014b67-cbf0-4ec3-8101-0319a21ca27b" name="Default Changelist" comment="" />
+    <list default="true" id="74014b67-cbf0-4ec3-8101-0319a21ca27b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/constant/RedisConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/utils/MD5Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/utils/POIUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/utils/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_common/src/test/java/com/itheima/ExcelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/CheckGroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/OrderSettingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/SetmealDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/CheckGroupDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/OrderSettingDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/PermissionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/RoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/SetmealDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/java/com/itheima/jobs/ClearImgJobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/resources/applicationContext-jobs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/resources/applicationContext-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_jobs/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/CheckGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/OrderSettingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/CheckGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/OrderSettingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/CheckGroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/OrderSettingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/security/SpringSecurityUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/resources/spring-redis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/webapp/pages/ordersetting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/webapp/pages/setmeal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/health_web/src/main/webapp/template/ordersetting_template.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/java/com/itheima/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/java/com/itheima/security/MySpringSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/css/orderset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/boxed-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/boxed-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/loginLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/logingBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/minilogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/pwd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/img/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/js/axios-0.18.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/elementui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/elementui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/elementui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/main/webapp/template/ordersetting_template.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity/src/test/java/com/itheima/security/test/TestSpringSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_common/src/main/java/com/itheima/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/CheckItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_dao/src/main/java/com/itheima/dao/CheckItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/CheckItemDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao/CheckItemDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_pojo/src/main/java/com/itheima/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_pojo/src/main/java/com/itheima/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/CheckItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/CheckItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_service/src/main/java/com/itheima/service/impl/CheckItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/CheckItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/CheckItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/webapp/pages/checkgroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/webapp/pages/checkgroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/webapp/pages/checkitem.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/webapp/pages/checkitem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/health_web/src/main/webapp/pages/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/health_web/src/main/webapp/pages/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +133,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,18 +154,25 @@
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1xRiIC38BgalSTjwNk0EcU7LVHL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_dao/src/main/resources/com/itheima/dao" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/health_service/src/main/java/com/itheima" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,24 +183,57 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\study\code\javase2\health_parent01\health_dao\src\main\resources\com\itheima\dao" />
-      <recent name="E:\study\code\javase2\health_parent01\health_web\src\main\java\com\itheima\controller" />
-      <recent name="E:\study\code\javase2\health_parent01\health_service\src\main\java\com\itheima\service" />
-      <recent name="E:\study\code\javase2\health_parent01\health_dao\src\main\java\com\itheima\dao" />
-      <recent name="E:\study\code\javase2\health_parent01\health_pojo\src\main\java" />
+      <recent name="E:\study\code\javase2\health_parent01\health_web\src\main\webapp" />
+      <recent name="E:\study\code\javase2\health_parent01\springsecurity\src\main\webapp" />
+      <recent name="E:\study\code\javase2\health_parent01\springsecurity\src\main\resources" />
+      <recent name="E:\study\code\javase2\health_parent01\health_web\src\main\webapp\template" />
+      <recent name="E:\study\code\javase2\health_parent01\health_common\src\main\java\com\itheima\utils" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.service.impl" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="mvn clean" />
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="health" type="MavenRunConfiguration" factoryName="Maven">
+  <component name="RunManager" selected="Maven.web">
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itheima.utils.MD5Utils" />
+      <module name="health_common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSpringSecurity.testSpringSecurity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.security.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima.security.test" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.security.test.TestSpringSecurity" />
+      <option name="METHOD_NAME" value="testSpringSecurity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -83,12 +252,23 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/day48_healthweb" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/health_web" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.MD5Utils" />
+      <item itemvalue="JUnit.TestSpringSecurity.testSpringSecurity" />
+      <item itemvalue="Maven.web" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestSpringSecurity.testSpringSecurity" />
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -100,77 +280,147 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1630324219983</updated>
-      <workItem from="1630324223042" duration="1942000" />
+      <workItem from="1630324223042" duration="3822000" />
+      <workItem from="1630370095215" duration="19501000" />
+      <workItem from="1630459113460" duration="20314000" />
+      <workItem from="1630541888119" duration="23934000" />
+      <workItem from="1630592482996" duration="6202000" />
+      <workItem from="1630628498466" duration="7144000" />
+      <workItem from="1630657131323" duration="14347000" />
+      <workItem from="1630738201706" duration="11379000" />
+      <workItem from="1631071005890" duration="1663000" />
+      <workItem from="1631072688530" duration="13082000" />
     </task>
+    <task id="LOCAL-00001" summary="08/30">
+      <created>1630326469715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630326469715</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="08/30" />
+    <option name="LAST_COMMIT_MESSAGE" value="08/30" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="360" y="1" key="#Project_Structure" timestamp="1630325278365">
+    <state x="347" y="109" key="#Inspections" timestamp="1630663762647">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="360" y="1" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1630325278365" />
+    <state x="347" y="109" key="#Inspections/0.0.1440.860@0.0.1440.860" timestamp="1630663762647" />
+    <state x="360" y="1" key="#Project_Structure" timestamp="1630550500158">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="360" y="1" key="#Project_Structure/0.0.1440.860@0.0.1440.860" timestamp="1630550500158" />
     <state x="362" y="1" key="#Unnamed" timestamp="1630324496165">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="362" y="1" key="#Unnamed/0.0.1440.860@0.0.1440.860" timestamp="1630324496165" />
-    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630324478986">
+    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1630674971619">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1630324478986" />
-    <state x="362" y="1" key="#health" timestamp="1630325932623">
+    <state x="176" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.860@0.0.1440.860" timestamp="1630674971619" />
+    <state x="838" y="145" key="#com.intellij.ide.util.MemberChooser" timestamp="1631075305926">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="362" y="1" key="#health/0.0.1440.860@0.0.1440.860" timestamp="1630325932623" />
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom" timestamp="1630326145515">
+    <state x="838" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1631075305926" />
+    <state x="815" y="215" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1631072545863">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
-    <state width="1398" height="270" key="GridCell.Tab.0.center" timestamp="1630326145515">
+    <state x="815" y="215" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1440.860@0.0.1440.860" timestamp="1631072545863" />
+    <state x="362" y="1" key="#health" timestamp="1631087673765">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
-    <state width="1398" height="270" key="GridCell.Tab.0.left" timestamp="1630326145515">
+    <state x="362" y="1" key="#health/0.0.1440.860@0.0.1440.860" timestamp="1631087673765" />
+    <state x="266" y="6" key="CommitChangelistDialog2" timestamp="1630326469315">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
-    <state width="1398" height="270" key="GridCell.Tab.0.right" timestamp="1630326145515">
+    <state x="266" y="6" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1630326469315" />
+    <state x="501" y="171" key="FileChooserDialogImpl" timestamp="1631087670103">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1630326145515" />
-    <state width="1398" height="338" key="GridCell.Tab.1.bottom" timestamp="1630324660929">
+    <state x="501" y="171" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1631087670103" />
+    <state width="1276" height="196" key="GridCell.Tab.0.bottom" timestamp="1631092293634">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="338" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
-    <state width="1398" height="338" key="GridCell.Tab.1.center" timestamp="1630324660929">
+    <state width="1276" height="196" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1631092293634" />
+    <state width="1276" height="196" key="GridCell.Tab.0.center" timestamp="1631092293634">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="338" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
-    <state width="1398" height="338" key="GridCell.Tab.1.left" timestamp="1630324660929">
+    <state width="1276" height="196" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1631092293634" />
+    <state width="1276" height="196" key="GridCell.Tab.0.left" timestamp="1631092293634">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="338" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
-    <state width="1398" height="338" key="GridCell.Tab.1.right" timestamp="1630324660929">
+    <state width="1276" height="196" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1631092293634" />
+    <state width="1276" height="196" key="GridCell.Tab.0.right" timestamp="1631092293634">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1398" height="338" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1630324660929" />
-    <state x="222" y="11" key="SettingsEditor" timestamp="1630325912648">
+    <state width="1276" height="196" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1631092293634" />
+    <state width="1276" height="205" key="GridCell.Tab.1.bottom" timestamp="1631091507174">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="222" y="11" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1630325912648" />
-    <state x="174" y="152" width="1266" height="666" key="new project wizard" timestamp="1630325139667">
+    <state width="1276" height="205" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1631091507174" />
+    <state width="1276" height="205" key="GridCell.Tab.1.center" timestamp="1631091507174">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="174" y="152" width="1266" height="666" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1630325139667" />
-    <state x="381" y="199" width="672" height="677" key="run.anything.popup" timestamp="1630326137449">
+    <state width="1276" height="205" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1631091507174" />
+    <state width="1276" height="205" key="GridCell.Tab.1.left" timestamp="1631091507174">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="381" y="199" width="672" height="677" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1630326137449" />
-    <state x="482" y="124" key="spring file set editor" timestamp="1630325551457">
+    <state width="1276" height="205" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1631091507174" />
+    <state width="1276" height="205" key="GridCell.Tab.1.right" timestamp="1631091507174">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="482" y="124" key="spring file set editor/0.0.1440.860@0.0.1440.860" timestamp="1630325551457" />
+    <state width="1276" height="205" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1631091507174" />
+    <state x="213" y="45" key="SettingsEditor" timestamp="1630669343655">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="213" y="45" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1630669343655" />
+    <state x="313" y="163" key="Vcs.Push.Dialog.v2" timestamp="1630326657446">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="313" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1630326657446" />
+    <state x="886" y="217" key="chooseDestDirectoryDialog" timestamp="1631072559662">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="886" y="217" key="chooseDestDirectoryDialog/0.0.1440.860@0.0.1440.860" timestamp="1631072559662" />
+    <state x="174" y="139" width="1266" height="666" key="new project wizard" timestamp="1630654281620">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="139" width="1266" height="666" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1630654281620" />
+    <state x="562" y="186" key="refactoring.ChangeSignatureDialog" timestamp="1630663490633">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="562" y="186" key="refactoring.ChangeSignatureDialog/0.0.1440.860@0.0.1440.860" timestamp="1630663490633" />
+    <state x="446" y="253" width="672" height="677" key="run.anything.popup" timestamp="1631092279072">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="446" y="253" width="672" height="677" key="run.anything.popup/0.0.1440.860@0.0.1440.860" timestamp="1631092279072" />
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1630746082878">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1630746082877" />
+    <state x="482" y="124" key="spring file set editor" timestamp="1630659848137">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="482" y="124" key="spring file set editor/0.0.1440.860@0.0.1440.860" timestamp="1630659848137" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/health_web/src/main/java/com/itheima/controller/UserController.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

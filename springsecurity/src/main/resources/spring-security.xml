@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--1：定义哪些链接可以放行-->
+    <security:http security="none" pattern="/css/**"/>
+    <security:http security="none" pattern="/img/**"/>
+    <security:http security="none" pattern="/js/**"/>
+    <security:http security="none" pattern="/plugins/**"/>
+    <security:http security="none" pattern="/template/**"/>
+    <security:http security="none" pattern="/login.html"/>
+
+    <!--2: 定义哪些请求需要权限控制
+    auto-config="true"：自动配置（例如：登录页面默认化了）
+    use-expressions="true":使用表达式
+    -->
+
+    <security:http auto-config="true" use-expressions="true">
+        <!--页面访问webapp下资料 需要ROLE_ADMIN权限-->
+        <!-- 只要认证通过就可以访问-->
+        <security:intercept-url pattern="/index.html" access="isAuthenticated()"/>
+        <security:intercept-url pattern="/a.html" access="isAuthenticated()"/>
+
+        <!--  拥有add权限就可以访问b.html页面  -->
+        <security:intercept-url pattern="/b.html" access="hasAuthority('add')"/>
+        <!--拥有ROLE_ADMIN角色就可以访问c.html页面,注意：此处虽然写的是Admin角色，框架会自动加上前缀ROLE -->
+        <security:intercept-url pattern="/c.html" access="hasRole('ADMIN')"/>
+        <!-- 拥有ROLE_ADMIN角色就可以访问d.html页面  -->
+        <security:intercept-url pattern="/d.html" access="hasRole('ABC')"/>
+        <security:intercept-url pattern="/**" access="hasRole('ADMIN')"/>
+        <!-- form-login定义表单登录信息-->
+        <security:form-login login-page="/login.html"
+                             username-parameter="username"
+                             password-parameter="password"
+                             login-processing-url="/login.do"
+                             default-target-url="/index.html"
+                             authentication-failure-url="/login.html"
+                             always-use-default-target="true"/>
+         <!-- 关闭csrf过滤器-->
+        <security:csrf disabled="true"/>
+    </security:http>
+
+   <!--3 认证管理-->
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="mySpringSecurityService">
+            <!--认证 账号 密码(未加密) 授予的权限-->
+            <!--<security:user-service>
+            <security:user name="admin" authorities="ROLE_ADMIN" password="{noop}123456"/>
+        </security:user-service>-->
+         <!-- 配置密码加密策略-->
+<!--            <security:password-encoder ref="encoder"/>-->
+        </security:authentication-provider>
+    </security:authentication-manager>
+
+<!--包扫描-->
+    <context:component-scan base-package="com.itheima"/>
+
+<!-- 密码加密策略-->
+<!--    <bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>-->
+
+    <!--开启权限注解-->
+    <security:global-method-security pre-post-annotations="enabled"/>
+
+
+
+
+
+
+
+</beans>

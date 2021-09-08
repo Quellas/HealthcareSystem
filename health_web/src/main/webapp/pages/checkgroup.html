@@ -55,7 +55,7 @@
                 <div class="box">
                     <div class="filter-container">
                         <el-input placeholder="编码/名称/助记码" v-model="pagination.queryString" style="width: 200px;" class="filter-item" @keyup.enter.native="handleFilter"></el-input>
-                        <el-button @click="findPage()" class="dalfBut">查询</el-button>
+                        <el-button @click="handleCurrentChange" class="dalfBut">查询</el-button>
                         <el-button type="primary" class="butT" @click="handleCreate()">新建</el-button>
                     </div>
                     <el-table size="small" current-row-key="id" :data="dataList" stripe highlight-current-row>
@@ -282,24 +282,100 @@
             methods: {
                 //编辑
                 handleEdit() {
+                    //2修改检查组 勾选检查项 提交表单 发送请求 参数检查组对象，检查项ids
+                    axios.post("/checkgroup/edit.do?checkitemIds="+this.checkitemIds,this.formData).then(res=>{
+                        //3 成功或失败提示 窗口关闭 页面刷新
+                        this.$message({
+                            message:res.data.message,
+                            type:res.data.flag ? 'success':'error'
+                        });
+                        this.dialogFormVisible4Edit=false;
+                        this.findPage();
+                    })
                 },
                 //添加
                 handleAdd () {
+                    //2输入检查组数据 以及勾选检查项 并提交请求 参数 检查组对象，检查项ids（表单校验省略了...）
+                    axios.post("/checkgroup/add.do?checkitemIds="+this.checkitemIds,this.formData).then(res=>{
+                        //3成功或失败提示，窗口关闭，页面刷新
+                        this.$message({
+                            message: res.data.message,
+                            type:res.data.flag ? 'success':'error'
+                        });
+                        this.dialogFormVisible=false;
+                        this.findPage();
+                    })
+
                 },
                 //分页查询
                 findPage() {
+                    //分页参数
+                    var param ={
+                        currentPage: this.pagination.currentPage,//页码
+                        pageSize: this.pagination.pageSize,//每页显示的记录数
+                        queryString: this.pagination.queryString//查询条件
+                    };
+                    //请求后台
+                    axios.post("/checkgroup/findPage.do",param).then((response)=>{
+                        //为模型数据赋值，基于vue的双向绑定展示到页面
+                        this.dataList=response.data.rows;//数据集
+                        this.pagination.total=response.data.total;//总记录数
+                    });
+
                 },
                 // 重置表单
                 resetForm() {
                 },
                 // 弹出添加窗口
                 handleCreate() {
+                    this.resetForm();
+                    //1 新建弹出窗口，并发送查询所有检查项请求 回显到窗口中
+                    this.dialogFormVisible=true;
+                    //默认切换到第一个标签页（基本信息）
+                    this.activeName='first';
+                    //重置
+                    this.checkitemIds=[];
+                    axios.get("/checkitem/findAll.do").then(res=>{
+                        this.tableData=res.data.data; //将后台的数据展示到窗口中
+                        this.$message({
+                            message:res.data.message,
+                            type:res.data.flag ? 'success':'error'
+                        });
+
+                    })
+
                 },
                 // 弹出编辑窗口
                 handleUpdate(row) {
+                    //1 点击"编辑”弹出窗口 回显检查组，所有检查项列表，勾选检查项 数据
+                    this.dialogFormVisible4Edit=true;
+                    //回显检查组数据
+                    axios.get("/checkgroup/findById.do?id="+row.id).then(res=>{
+                        this.$message({
+                            message:res.data.message,
+                            type:res.data.flag ? 'success':'error'
+                        });
+                        this.formData=res.data.data;
+                        //所有检查项列表
+                        axios.get("/checkitem/findAll.do").then(res=>{
+                            this.tableData=res.data.data; //将后台的数据展示到窗口中
+                            this.$message({
+                                message:res.data.message,
+                                type:res.data.flag ? 'success':'error'
+                            });
+                            //勾选检查项 ids
+                            axios.get("/checkgroup/findCheckItemIdsByCheckGroupId.do?id="+row.id).then(res=>{
+                                this.checkitemIds=res.data;//将后台的数据展示到窗口中 res.data.data ==Result res.data==List<Integer>[28,29,30...]
+                            })
+                        })
+                    })
                 },
                 //切换页码
                 handleCurrentChange(currentPage) {
+                    //currentPage为切换后的页码
+                    this.pagination.currentPage=currentPage;
+                    this.findPage();
+
                 },
                 // 删除
                 handleDelete(row) {

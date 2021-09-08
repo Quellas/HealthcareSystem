@@ -3,7 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/day48_healthweb" />
+    <file type="web" url="file://$PROJECT_DIR$/health_jobs" />
     <file type="web" url="file://$PROJECT_DIR$/health_web" />
+    <file type="web" url="file://$PROJECT_DIR$/springsecurity" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

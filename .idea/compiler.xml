@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springsecurity" />
         <module name="health_web" />
-        <module name="health_pojo" />
+        <module name="health_jobs" />
         <module name="health_common" />
-        <module name="health_service" />
+        <module name="health_pojo" />
         <module name="health_dao" />
+        <module name="health_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
